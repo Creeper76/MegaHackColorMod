@@ -13,6 +13,7 @@ no I didn't reverse engineer megahack, grow up
     - Adjustable cycle speed
 - Readable JSON config file (MegaHackColor/config.json)
 - No more crashes (hopefully)
+- You can use decimals
 
 ### Planned Features
 

@@ -11,7 +11,7 @@ no I didn't reverse engineer megahack, grow up
 - Rainbow menu animation
     - Customizable Saturation and Value
     - Adjustable cycle speed
-- Readable JSON config file (MHRecolor/config.json)
+- Readable JSON config file (MegaHackColor/config.json)
 - No more crashes (hopefully)
 
 ### Planned Features

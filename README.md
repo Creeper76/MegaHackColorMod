@@ -17,4 +17,4 @@ no I didn't reverse engineer megahack, grow up
 
 #
 
-![image](https://github.com/Ikszyon/MegaHack-Recolor/assets/75569094/0266092a-cec6-4b59-9e17-71f75a33b489)
+![image](https://raw.githubusercontent.com/Creeper76/MegaHackColorMod/main/.github/images/Menu.jpg)

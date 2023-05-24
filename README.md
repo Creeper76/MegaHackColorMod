@@ -6,18 +6,17 @@ no I didn't reverse engineer megahack, grow up
 
 ## Features
 
-- __Can now be loaded through extensions__
-- Runtime color change (switched from patches to hooks)
-- Rainbow menu animation
-    - Customizable Saturation and Value
-    - Adjustable cycle speed
-- Readable JSON config file (MegaHackColor/config.json)
-- No more crashes (hopefully)
-- You can use decimals
+- __can now be loaded through extensions__
+- runtime color change (switched from patches to hooks)
+- rainbow menu animation
+    - customizable Saturation and Value
+    - adjustable cycle speed
+- readable JSON config file (MHRecolor/config.json)
+- no more crashes (hopefully)
 
 ### Planned Features
 
-- Fully customizable color transitions
+- fully customizable color transitions
 
 #
 

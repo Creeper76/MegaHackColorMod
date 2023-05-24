@@ -3,6 +3,7 @@
 #define WIN32_LEAN_AND_MEAN
 #include <Windows.h>
 #include <shellapi.h>
+#include <iostream>
 
 #include <extensions2.hpp>
 
@@ -331,21 +332,23 @@ namespace MegaHackColor {
             SaveConfig();
         });
 
-        Spinner* Speed = Spinner::CreateEx("Speed: ", "x", RainbowSpeed, 1.0,
+        Spinner* Speed = Spinner::CreateEx("Speed: ", "x", RainbowSpeed, 0.5,
         [](Spinner* Self, double Value) {
-            RainbowSpeed = (Value > 16) ? 16 : (Value < 0.1 /*Change from 1 to .1*/) ? 1 : Value;
+            RainbowSpeed = (Value > 16) ? 16 : (Value < 0.1) ? 0.1 : Value;
             Self->set(RainbowSpeed, 0);
             SaveConfig();
         });
 
-        Label* CreditsLine1 = Label::Create("Original by: Ikszyon");
-        Label* CreditsLine2 = Label::Create("Modifyed by: Creeper76");
+        const char *strs[] = { "Modified by: Creeper76", "Original by: Ikszyon", "Version 1.0", nullptr};
+        ComboBox* Info = ComboBox::Create("Info: ", nullptr);
+        Info->setCallback([](ComboBox *obj, int index, const char *str) { std::cout << "index " << index << " Info: " << str << '\n'; });
+        Info->setValues(strs);
+        
 
         Window->addElements({Picker,
                              HorizontalLayout::Create(RainbowCheckbox, Speed),
                              HorizontalLayout::Create(Saturation, Value),
-                             CreditsLine1,
-                             CreditsLine2});
+                             Info});
     }
 
     void OutdatedVersionWindow() {
@@ -375,5 +378,4 @@ namespace MegaHackColor {
                              GitHub,
                              GitHub2});
     }
-
 }

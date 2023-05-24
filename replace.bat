@@ -22,4 +22,7 @@ if "%GMD_LNCH%"=="1" (
     call start steam://rungameid/322170
 )
 
+echo Completed!
+timeout /t -1
+
 @echo on

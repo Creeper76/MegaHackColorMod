@@ -2,14 +2,12 @@
 #include <Windows.h>
 
 #include <mhcolor.hpp>
-
 #include <extensions2.hpp>
 
 #include <algorithm>
 #include <vector>
 #include <string>
 #include <sstream>
-
 
 using namespace MegaHackExt;
 

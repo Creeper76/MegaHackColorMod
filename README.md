@@ -14,6 +14,8 @@ no I didn't reverse engineer megahack, grow up
 - Readable JSON config file (MegaHackColor/config.json)
 - No more crashes (hopefully)
 - Decimals
+- Profile System
+- Added Credits
 
 #
 

@@ -1,4 +1,4 @@
-# MegaHack Recolor
+# MegaHack Color
 
 no I didn't reverse engineer megahack, grow up
 

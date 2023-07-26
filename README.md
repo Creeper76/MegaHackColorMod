@@ -17,6 +17,11 @@ no I didn't reverse engineer megahack, grow up
 - Profile System
 - Added Credits
 
+## Planned
+
+- Change profile depending on the layer
+- New UI
+
 #
 
 ![image](/assets/Menu.jpg)

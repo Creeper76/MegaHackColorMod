@@ -18,8 +18,8 @@ DWORD APIENTRY MainThread(LPVOID lpParam) {
         return 1;
     }
 
-    if(MegaHackColor::GetMHVersion() != MegaHackColor::CorrectVersion) {
-        MegaHackColor::OutdatedVersionWindow();
+    if(!MegaHackColor::SignaturesFound) {
+        MegaHackColor::SigsNotFoundWindow();
         return 1;
     }
 

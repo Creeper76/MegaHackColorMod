@@ -24,8 +24,15 @@ target_include_directories(${PROJECT_NAME} PRIVATE
   lib/minhook/include
 
   lib/json/single_include/nlohmann
-)
 
+  lib/Sig/include/Sig
+
+  lib/gd.h/include
+  lib/gd.h
+)
 target_link_libraries(${PROJECT_NAME} minhook ${CMAKE_SOURCE_DIR}/lib/Mega-Hack-Extensions/bin/hackpro.lib)
 
 add_subdirectory(lib/minhook)
+add_subdirectory(lib/cocos-headers)
+
+target_link_libraries(${PROJECT_NAME} minhook cocos2d)

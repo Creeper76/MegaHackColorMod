@@ -1,4 +1,4 @@
-# MegaHack Color
+# MegaHack Recolor
 
 no I didn't reverse engineer megahack, grow up
 
@@ -15,12 +15,8 @@ no I didn't reverse engineer megahack, grow up
 - No more crashes (hopefully)
 - Decimals
 - Profile System
+- Forward Compatibility (sigscanning instead of hard coded offsets)
 - Added Credits
-
-## Planned
-
-- Change profile depending on the layer
-- New UI
 
 #
 
